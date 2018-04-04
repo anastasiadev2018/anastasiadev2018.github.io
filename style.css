@@ -1,0 +1,75 @@
+body {
+	background: url("http://www.hdwallpaperspulse.com/wp-content/uploads/2015/02/21/hawaii-beach-wallpaper.jpg") no-repeat fixed 100%;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	/*-moz-background-attachment:fixed;*/
+  	-o-background-size: cover;
+  	background-size: cover;
+  	/*height: 100%*/
+ 	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+
+/*	display: flex;
+  	justify-content: center;
+  	align-items: center;*/
+
+	
+}
+
+/*#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+
+#bg img {
+
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}*/
+
+
+.title {
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+	vertical-align: middle;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+
+
+/*	text-align: center;
+	position: relative;
+	align-items: center;
+	display: flex;
+	justify-content: center;*/
+	
+
+}
+.btn-info {
+	background-color: pink;
+	border: 0px, solid;
+		
+
+}
+
+.btn-info:hover {
+	transform: scale(1.2)
+
+}
+
